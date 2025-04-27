@@ -18,4 +18,10 @@
     border-radius: 8px;
     border: 1px solid #ccc;
   }
+
+  @media (max-width: 768px) {
+    .movie-list {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  }
   
