@@ -1,0 +1,30 @@
+/* src/components/CinemaHall.css */
+.cinema-hall {
+    display: grid;
+    grid-template-columns: repeat(8, 40px);
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    background-color: lightgreen;
+    border: 1px solid #444;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .seat.selected {
+    background-color: cornflowerblue;
+  }
+  
+  .selected-seats {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
