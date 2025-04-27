@@ -1,3 +1,4 @@
+// /src/App.js
 import { useState } from 'react';
 import { movies as moviesData } from './data/movies';
 import MovieList from './components/MovieList';
