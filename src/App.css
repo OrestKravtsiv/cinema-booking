@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
     max-width: 1200px;
     margin: 0 auto;
@@ -6,7 +10,8 @@
   
   .movie-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 0.4fr));
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.35fr));
     gap: 20px;
   }
   

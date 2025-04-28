@@ -27,3 +27,19 @@
     flex-grow: 1; /* текст тягнеться рівномірно */
   }
   
+  .movie-card button {
+    background-color: #4CAF50; /* Зелений колір */
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .movie-card button:hover {
+    background-color: #45a049; /* Трохи темніший зелений при наведенні */
+  }
+  

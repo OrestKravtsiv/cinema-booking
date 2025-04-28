@@ -87,7 +87,7 @@ const CinemaHall = () => {
 
   return (
     <div>
-      <h2>Кінотеатр</h2>
+      
       <div className="cinema-hall">{seats}</div>
 
       <div className="selected-seats">
